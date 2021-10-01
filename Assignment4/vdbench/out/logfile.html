@@ -1,0 +1,37 @@
+<title>Vdbench out/logfile.html</title><pre>
+Copyright (c) 2000, 2018, Oracle and/or its affiliates. All rights reserved.
+Vdbench distribution: vdbench50407
+
+17:24:51.580 input argument scanned: '-f./prf_test'
+17:24:51.581 input argument scanned: '-oout'
+17:24:51.581 java.vendor                   Oracle Corporation
+17:24:51.581 java.home                     /usr/lib/jvm/jdk-14.0.1
+17:24:51.581 java.vm.specification.version 14
+17:24:51.582 java.vm.version               14.0.1+7
+17:24:51.582 java.vm.vendor                Oracle Corporation
+17:24:51.582 java.specification.version    14
+17:24:51.582 java.class.version            58.0
+17:24:51.582 user.name                     root
+17:24:51.582 user.dir                      /home/iit/Documents/Academics/Semester5/OSLab/Assignment4/vdbench
+17:24:51.582 java.io.tmpdir                /tmp
+17:24:51.582 java.class.path               ./:./classes:./vdbench.jar
+17:24:51.582 os.name                       Linux
+17:24:51.582 os.arch                       amd64
+17:24:51.582 os.version                    4.15.0-124-generic
+17:24:51.582 sun.arch.data.model           64
+17:24:51.584 Flushing all reports
+17:24:51.674 Starting slave: /home/iit/Documents/Academics/Semester5/OSLab/Assignment4/vdbench/vdbench SlaveJvm -m localhost -n localhost-10-201124-17.24.51.544 -l localhost-0 -p 5570   
+17:24:51.902 Slave localhost-0 (pid   4852) connected to master 4824
+17:24:51.916 All slaves are now connected
+17:24:52.038 Raw device 'sd=sd1,lun=/dev/sdl' does not exist, or no permissions.
+17:24:52.543 killCommand: /home/iit/Documents/Academics/Semester5/OSLab/Assignment4/vdbench/vdbench SlaveJvm -m localhost -n localhost-10-201124-17.24.51.544 -l localhost-0 -p 5570
+17:24:52.544 
+17:24:52.544 Please check above failures
+17:24:52.544 
+java.lang.RuntimeException: Please check above failures
+	at Vdb.common.failure(common.java:350)
+	at Vdb.InfoFromHost.matchDataWithSds(InfoFromHost.java:685)
+	at Vdb.InfoFromHost.receiveInfoFromHost(InfoFromHost.java:496)
+	at Vdb.SlaveOnMaster.processSlave(SlaveOnMaster.java:151)
+	at Vdb.SlaveOnMaster.run(SlaveOnMaster.java:42)
+17:24:52.546 removeKillAtEnd(): Unable to find /home/iit/Documents/Academics/Semester5/OSLab/Assignment4/vdbench/vdbench SlaveJvm -m localhost -n localhost-10-201124-17.24.51.544 -l localhost-0 -p 5570

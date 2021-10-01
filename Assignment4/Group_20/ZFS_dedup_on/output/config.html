@@ -1,0 +1,171 @@
+<title>Vdbench output/config.html</title><pre>
+Output from script /home/iit/Documents/Academics/Semester5/OSLab/Assignment4/vdbench/linux/config.sh: 
+
+Wed Nov 25 22:22:24 IST 2020
+>>>>>uname -a
+Linux varhade 4.15.0-124-generic #127-Ubuntu SMP Fri Nov 6 10:54:43 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+Wed Nov 25 22:22:24 IST 2020
+>>>>>ifconfig -a
+enp1s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether d8:d0:90:07:55:e0  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 117521  bytes 13790601 (13.7 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 117521  bytes 13790601 (13.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.213  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::ebd6:e7a9:d4b7:e302  prefixlen 64  scopeid 0x20<link>
+        ether a8:6d:aa:12:68:6c  txqueuelen 1000  (Ethernet)
+        RX packets 3434990  bytes 2706218318 (2.7 GB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3394778  bytes 905122544 (905.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+Wed Nov 25 22:22:25 IST 2020
+>>>>>id
+uid=0(root) gid=0(root) groups=0(root)
+Wed Nov 25 22:22:25 IST 2020
+>>>>>mount
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+udev on /dev type devtmpfs (rw,nosuid,relatime,size=3998760k,nr_inodes=999690,mode=755)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs on /run type tmpfs (rw,nosuid,noexec,relatime,size=806124k,mode=755)
+/dev/sda3 on / type ext4 (rw,relatime,errors=remount-ro,data=ordered)
+securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
+tmpfs on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,mode=755)
+cgroup on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup on /sys/fs/cgroup/systemd type cgroup (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)
+efivarfs on /sys/firmware/efi/efivars type efivarfs (rw,nosuid,nodev,noexec,relatime)
+cgroup on /sys/fs/cgroup/rdma type cgroup (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup on /sys/fs/cgroup/perf_event type cgroup (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup on /sys/fs/cgroup/net_cls,net_prio type cgroup (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup on /sys/fs/cgroup/pids type cgroup (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup on /sys/fs/cgroup/hugetlb type cgroup (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup on /sys/fs/cgroup/blkio type cgroup (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup on /sys/fs/cgroup/freezer type cgroup (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)
+systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=41,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=16441)
+mqueue on /dev/mqueue type mqueue (rw,relatime)
+debugfs on /sys/kernel/debug type debugfs (rw,relatime)
+hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime,pagesize=2M)
+configfs on /sys/kernel/config type configfs (rw,relatime)
+fusectl on /sys/fs/fuse/connections type fusectl (rw,relatime)
+/var/lib/snapd/snaps/gnome-3-28-1804_145.snap on /snap/gnome-3-28-1804/145 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/canonical-livepatch_94.snap on /snap/canonical-livepatch/94 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/sublime-text_85.snap on /snap/sublime-text/85 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_570.snap on /snap/gnome-characters/570 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/remote_5.snap on /snap/remote/5 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1506.snap on /snap/gtk-common-themes/1506 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_748.snap on /snap/gnome-calculator/748 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-26-1604_98.snap on /snap/gnome-3-26-1604/98 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/code_49.snap on /snap/code/49 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1885.snap on /snap/core18/1885 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_93.snap on /snap/gnome-logs/93 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/code_50.snap on /snap/code/50 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-system-monitor_148.snap on /snap/gnome-system-monitor/148 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_10126.snap on /snap/core/10126 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/remote_1.snap on /snap/remote/1 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_550.snap on /snap/gnome-characters/550 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-34-1804_36.snap on /snap/gnome-3-34-1804/36 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1932.snap on /snap/core18/1932 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_826.snap on /snap/gnome-calculator/826 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_100.snap on /snap/gnome-logs/100 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_10185.snap on /snap/core/10185 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-28-1804_128.snap on /snap/gnome-3-28-1804/128 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-26-1604_100.snap on /snap/gnome-3-26-1604/100 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-system-monitor_145.snap on /snap/gnome-system-monitor/145 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/sublime-text_77.snap on /snap/sublime-text/77 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/canonical-livepatch_95.snap on /snap/canonical-livepatch/95 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-34-1804_60.snap on /snap/gnome-3-34-1804/60 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/dev/sda1 on /boot/efi type vfat (rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro)
+binfmt_misc on /proc/sys/fs/binfmt_misc type binfmt_misc (rw,relatime)
+tmpfs on /run/snapd/ns type tmpfs (rw,nosuid,noexec,relatime,size=806124k,mode=755)
+nsfs on /run/snapd/ns/canonical-livepatch.mnt type nsfs (rw)
+tmpfs on /run/user/123 type tmpfs (rw,nosuid,nodev,relatime,size=806120k,mode=700,uid=123,gid=131)
+tmpfs on /run/user/1001 type tmpfs (rw,nosuid,nodev,relatime,size=806120k,mode=700,uid=1001,gid=1001)
+gvfsd-fuse on /run/user/1001/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime,user_id=1001,group_id=1001)
+/var/lib/snapd/snaps/gtk-common-themes_1513.snap on /snap/gtk-common-themes/1513 type squashfs (ro,nodev,relatime,x-gdu.hide)
+niharikaPool on /niharikaPool type zfs (rw,xattr,noacl)
+Wed Nov 25 22:22:25 IST 2020
+>>>>>memory
+MemTotal:        8061228 kB
+MemFree:         1698512 kB
+MemAvailable:    2330912 kB
+Buffers:          174316 kB
+Cached:          1387272 kB
+SwapCached:         2448 kB
+Active:          4789096 kB
+Inactive:        1086872 kB
+Active(anon):    4077784 kB
+Inactive(anon):  1009544 kB
+Active(file):     711312 kB
+Inactive(file):    77328 kB
+Unevictable:          80 kB
+Mlocked:              80 kB
+SwapTotal:      16562172 kB
+SwapFree:       16446412 kB
+Dirty:               700 kB
+Writeback:             0 kB
+AnonPages:       4312256 kB
+Mapped:           761960 kB
+Shmem:            772944 kB
+Slab:             219644 kB
+SReclaimable:     129804 kB
+SUnreclaim:        89840 kB
+KernelStack:       22964 kB
+PageTables:       106652 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    20592784 kB
+Committed_AS:   18750612 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:     1867704 kB
+DirectMap2M:     6414336 kB
+DirectMap1G:           0 kB
+              total        used        free      shared  buff/cache   available
+Mem:        8061228     4671152     1698684      772944     1691392     2331084
+Low:        8061228     6362544     1698684
+High:             0           0           0
+Swap:      16562172      115760    16446412
+Wed Nov 25 22:22:25 IST 2020
+>>>>>ps -ef | grep -i vdb
+iit       4597  1995  2 22:20 ?        00:00:02 gedit /home/iit/Documents/Academics/Semester5/OSLab/Assignment4/vdbench/workload1
+root      4642 29538  0 22:22 pts/1    00:00:00 sudo ./vdbench -f workload1 anchor=/niharikaPool
+root      4645  4642  0 22:22 pts/1    00:00:00 /bin/bash ./vdbench -f workload1 anchor=/niharikaPool
+root      4647  4645 35 22:22 pts/1    00:00:01 java -client -Xmx512m -Xms64m -cp ./:./classes:./vdbench.jar Vdb.Vdbmain -f workload1 anchor=/niharikaPool
+root      4674  4647  0 22:22 pts/1    00:00:00 /bin/bash /home/iit/Documents/Academics/Semester5/OSLab/Assignment4/vdbench/vdbench SlaveJvm -m localhost -n localhost-10-201125-22.22.23.439 -l localhost-0 -p 5570
+root      4678  4674 57 22:22 pts/1    00:00:00 java -client -Xmx1024m -Xms128m -cp /home/iit/Documents/Academics/Semester5/OSLab/Assignment4/vdbench/:/home/iit/Documents/Academics/Semester5/OSLab/Assignment4/vdbench/classes:/home/iit/Documents/Academics/Semester5/OSLab/Assignment4/vdbench/vdbench.jar Vdb.SlaveJvm SlaveJvm -m localhost -n localhost-10-201125-22.22.23.439 -l localhost-0 -p 5570
+root      4719  4647  0 22:22 pts/1    00:00:00 /bin/bash /home/iit/Documents/Academics/Semester5/OSLab/Assignment4/vdbench/linux/config.sh -o /home/iit/Documents/Academics/Semester5/OSLab/Assignment4/vdbench/output localhost
+root      4762  4719  0 22:22 pts/1    00:00:00 grep -i vdb
+
